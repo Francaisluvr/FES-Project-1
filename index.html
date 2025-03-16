@@ -9,15 +9,22 @@
 <body>
    <section>
     <nav>
-      <img src="./Assets/Treact Logo.svg" class="Logo"> Treact
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#blog"></a>Blog</li>
-        <li><a href="#pricing">Pricing</a></li>
-        <li><a href="#contact">Contact Us</a></li>
-        <li><a href="#login">Login</a></li>
-        <button>Sign Up</button>
-      </ul> 
+      <div class="nav__container">
+        <div class="nav__logo">
+          <img src="./Assets/Treact Logo.svg" class="Logo"> 
+          <span class="logo__text">Treact</span>
+        </div>
+          <ul class="nav__links">
+            <li><a href="#about" class="nav__link">About</a></li>
+            <li><a href="#blog" class="nav__link">Blog</a></li>
+            <li><a href="#pricing" class="nav__link">Pricing</a></li>
+            <li><a href="#contact" class="nav__link">Contact Us</a></li>
+            <li><a href="#login" class="nav__link">Login</a></li>
+          </ul> 
+          <button class="nav__ btn" onclick="openMenu()">Sign Up 
+            <i class="fa-solid fa-bars"></i>
+          </button>
+      </div>
     </nav>
     <header>
 
