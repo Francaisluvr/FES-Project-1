@@ -12,7 +12,7 @@
     <nav>
       <div class="nav__container">
         <div class="nav__logo">
-          <img src="./Assets/Treact Logo.svg" class="Logo"> 
+          <img class="nav__logo--img"  src="./Assets/Treact Logo.svg" class="Logo"> 
           <span class="logo__text">Treact</span>
         </div>
         <div class="nav__menu">
@@ -23,14 +23,51 @@
             <li><a href="#contact" class="nav__link">Contact Us</a></li>
             <li><a href="#login" class="nav__link">Login</a></li>
           </ul> 
-          <button class="nav__ btn" onclick="openMenu()">Sign Up 
+          <button class="nav__btn" onclick="openMenu()">Sign Up 
             <i class="fa-solid fa-bars"></i>
           </button>
+          <div class="menu__backdrop">
+            <button class="btn__menu btn__menu--close" onclick="closeMenu()">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+            <ul class="menu__links">
+                <li class="menu__list">
+                <a href="#about" class="menu__link" onclick="closeMenu()">About</a>
+                </li>
+                <li class="menu__list">
+                <a href="#blog" class="menu__link" onclick="closeMenu()">Blog</a>
+                </li>
+                <li class="menu__list">
+                  <a href="#pricing" class="menu__link" onclick="closeMenu()">Pricing</a>
+                  </li>
+                <li class="menu__list">
+                <a class="menu__link no-cursor" onclick="closeMenu()">Contact</a>
+                </li>
+                <li class="menu__list">
+                  <a href="#login" class="menu__link" onclick="closeMenu()">Login</a>
+                  </li>
+            </ul>
+        </div>
         </div>
       </div>
     </nav>
-    <header>
-
+    <header class="container">
+      <div class="row">
+        <div class="header__description">
+          <h1>
+            Beautiful React Templates <span class="purple">for you.</span>
+          </h1>
+          <p class="header__description--para">
+            Our templates are easy to setup, understand and customize. Fully modular components with a variety of pages and components.
+          </p>
+          <div class="header__email">
+            <input type="text" class="header__email--input" placeholder="Your E-mail Address">
+            <button class="header__email--btn">Get Started</button>
+          </div>
+          <p header__customers--title> OUR TRUSTED CUSTOMERS</p>
+          <img src="./Assets/customers-logo-strip.png" alt="">
+        </div>
+      </div>
     </header>
    </section> 
 </body>
