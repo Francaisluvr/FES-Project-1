@@ -121,7 +121,7 @@ p {
 	width: 50%;
     float: left;
 
-header .row {
+.header__row {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -200,5 +200,6 @@ header .row {
 
 .header__img {
     max-width: 768px;
+    float:right;
 }
 
