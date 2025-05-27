@@ -200,6 +200,107 @@ p {
 
 .header__img {
     max-width: 768px;
-    float:right;
+    float:left;
+}
+
+.table {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.table__column {
+  border-radius: 20%;
+  border: 1px solid #ccc;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  background-color: white;
+}
+
+/* Colored Top Bars */
+.table__top-bar {
+  height: 10px;
+}
+
+.table__top-bar--green {
+  background-color: #28a745;
+}
+
+.table__top-bar--red {
+  background-color: #dc3545;
+}
+
+/* Section Styling */
+.table__section {
+  padding: 20px;
+}
+
+.table__row {
+  padding: 8px 0;
+  text-align: center;
+}
+
+.table__row--header {
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.table__divider {
+  border: none;
+  border-top: 1px solid #ccc;
+  margin: 0;
+}
+
+.table__section--button {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.table__button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* Button Gradient Modifiers */
+.table__button--green {
+  background: linear-gradient(to bottom, #28a745 5%, #218838);
+  color: white;
+}
+
+.table__button--red {
+  background: linear-gradient(to bottom, #dc3545 5%, #c82333);
+  color: white;
+}
+
+.table__button--white {
+  background-color: white;
+  color: purple;
+  border: 1px solid #007bff;
+}
+
+/* Column Modifiers */
+.table__column--business {
+  background-color: #007bff;
+  color: white;
+}
+
+.table__column--business .table__divider--light {
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+.table__column--business .table__row--header {
+  color: white;
+}
+
+.table__column--business .table__row {
+  border-color: transparent;
 }
 
