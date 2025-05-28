@@ -844,3 +844,71 @@ p {
   .testimonials__buttons {
     align-self: flex-end;
   }
+
+/* Bottom Box Section */
+.bottom-box {
+  background-color: royalblue;
+  padding: 30px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.bottom-box__container {
+  background-color: royalblue;
+  color: white;
+  border-radius: 8px;
+  max-width: 1000px;
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Heading */
+.bottom-box__heading {
+  font-size: 1.8rem;
+  flex: 1;
+  min-width: 250px;
+}
+
+/* Buttons */
+.bottom-box__buttons {
+  display: flex;
+  gap: 12px;
+}
+
+/* Base Button */
+.btn {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+/* Primary (Orange) Button */
+.btn--primary {
+  background-color: orange;
+  color: white;
+  border: none;
+}
+
+/* Secondary (Outlined) Button */
+.btn--secondary {
+  background: transparent;
+  color: white;
+  border: 1px solid white;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .bottom-box__container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .bottom-box__buttons {
+    justify-content: center;
+  }
