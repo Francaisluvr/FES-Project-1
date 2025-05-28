@@ -304,3 +304,72 @@ p {
   border-color: transparent;
 }
 
+.features__wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.features__header {
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.features__title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.features__description {
+  color: #777;
+  font-size: 1rem;
+  max-width: 600px;
+  margin: 0 auto 40px;
+}
+
+/* Grid */
+.features__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 30px;
+  justify-items: center;
+}
+
+/* Grid Items */
+.grid-item {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+  text-align: left;
+}
+
+.grid-item__icon {
+  min-width: 50px;
+  height: 50px;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  margin-right: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.grid-item__text {
+  flex: 1;
+}
+
+.grid-item__title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.grid-item__description {
+  color: #777;
+  font-size: 0.95rem;
+}
