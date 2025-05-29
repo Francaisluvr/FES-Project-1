@@ -117,9 +117,10 @@ p {
     font-size: 16px;
 }
 
-.header__container--wrapper
+.header__container--wrapper {
 	width: 50%;
     float: left;
+}
 
 .header__row {
     display: flex;
@@ -455,7 +456,7 @@ p {
   .quality-work__button {
     margin: 0 auto;
   }
-
+}
 /* Section Wrapper */
 .steps {
   max-width: 1200px;
@@ -561,7 +562,7 @@ p {
   .steps__item {
     justify-content: center;
   }
-
+}
 /* Section Container */
 .values {
   max-width: 1200px;
@@ -690,6 +691,7 @@ p {
   .values__button {
     margin-bottom: 20px;
   }
+}
 /* Section Wrapper */
 .testimonials {
   max-width: 1200px;
@@ -844,7 +846,7 @@ p {
   .testimonials__buttons {
     align-self: flex-end;
   }
-
+}
 /* Bottom Box Section */
 .bottom-box {
   background-color: royalblue;
@@ -912,3 +914,4 @@ p {
   .bottom-box__buttons {
     justify-content: center;
   }
+}
