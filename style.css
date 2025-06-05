@@ -32,10 +32,11 @@ nav {
 
 header {
     margin-bottom: 0;
+    align-item: center;
 }
 
 h1 {
-    font-size: 48px;
+    font-size: 88px;
 }
 
 p {
