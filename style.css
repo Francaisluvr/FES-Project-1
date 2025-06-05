@@ -705,6 +705,7 @@ p {
   font-size: 2rem;
   font-weight: bold;
   margin: 10px 0;
+  color:#fff;
 }
 
 .table__period {
@@ -713,7 +714,7 @@ p {
 }
 
 .table__period-light {
-  color: rgba (255, 255, 255, 0.8);
+  color: #fff;
   margin-bottom: 10px;
 }
 
@@ -750,6 +751,7 @@ p {
   font-weight: bold;
   text-transform: uppercase;
   margin-bottom: 10px;
+  color: #fff;
 }
 
 .table__row__list {
