@@ -59,17 +59,6 @@ p {
     color:#6415ff;
 }
 
-.logo {
-    height: 40px;
-    max-width: 150px;
-    margin-right: 10px;
-}
-
-.logo__text {
-    font-size: 20px;
-    font-weight: bold;
-}
-
 .nav__container {
     display: flex;
     justify-content: space-between;
@@ -85,8 +74,8 @@ p {
 }
 
 .nav__logo--img {
-    width: 40px;
-    height: 40px;
+    width: 20px;
+    height: 20px;
 }
 
 .nav__logo--text {
