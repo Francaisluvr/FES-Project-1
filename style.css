@@ -768,7 +768,7 @@ p {
 .table__button--wrapper {
   display: flex;
   justify-content: center;
-  padding: 40 px 20px;
+  padding: 60 px 40px;
 }
 
 .table__button {
