@@ -36,7 +36,7 @@ header {
 }
 
 h1 {
-    font-size: 72px;
+    font-size: 54px;
 }
 
 p {
@@ -81,7 +81,7 @@ p {
 
 .nav__logo--text {
   font-size: 20px;
-  font-weight: bold;
+  font-weight: 700;
   margin-left: 10px;
 }
 
@@ -91,14 +91,14 @@ p {
     padding: 20px;
 }
 
-.nav__links, menu__links {
+.nav__links {
     list-style: none;
     display: flex;  
     padding: 6px;
     align-items: center;
 }
 
-.nav__link, menu__link {
+.nav__link {
     text-decoration: none;
     font-weight: 500;
     font-size: 16px;
@@ -123,7 +123,8 @@ p {
 
 .header__container {
 	width: 100%;
-  padding: 88px 0;
+  padding: 0 0 88px 0;
+  height: auto;
 }
 
 .header__row {
@@ -207,13 +208,15 @@ p {
 
 .header__img--wrapper {
     max-width: 50%;
-    display: block;
+    width: 100%;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .header__img {
-    max-width: 768px;
+    max-width: 100%;
+    width: 100%
     height: auto;
 }
 
