@@ -220,6 +220,17 @@ p {
     height: auto;
 }
 
+@media (max-width:768px) {
+  .header__img--wrapper {
+  max-width: 100%;
+  margin-top: 20px;
+  }
+  .header__row {
+    flex-direction: column;
+  }
+  
+}
+
 /*Features Section*/
 
 .features__wrapper {
