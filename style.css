@@ -253,7 +253,7 @@ p {
 }
 
 .features__title {
-  font-size: 56px;
+  font-size: 24px;
   font-weight: bold;
   margin-bottom: 10px;
 }
@@ -784,16 +784,17 @@ p {
 .table__button--wrapper {
   display: flex;
   justify-content: center;
-  padding: 60px 40px;
+  padding: 60px 20px;
 }
 
 .table__button {
-  padding: 16px 32px;
-  font-size: 20px;
+  padding: 20px 40px;
+  font-size: 24px;
   border: none;
   border-radius: 8px;
   cursor: pointer;
-  min-width: 140px;
+  min-width: 180px;
+  width:90%;
   height:auto;
 }
 
