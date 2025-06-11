@@ -831,7 +831,7 @@ p {
   color:#fff;
 }
 
-.table__column--business .table__divider--light {
+.table__column--business .table__divider-light {
   border-color: rgba(255, 255, 255, 0.3);
 }
 
@@ -1147,7 +1147,7 @@ width: 32px;
 height: 32px;
 }
 
-.footer__brand-text {
+.footer__brand--text {
 font-size: 18px;
 color:#fff;
 font-weight: bold;
