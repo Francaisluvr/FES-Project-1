@@ -704,12 +704,12 @@ p {
 /* Section Styling */
 
 .table__section {
-  padding: 20px;
+  padding: 15px 20px;
   text-align: center;
 }
 
 .table__section-light {
-  padding: 20px;
+  padding: 15px 20px;
   text-align: center;
 }
 
@@ -749,12 +749,12 @@ p {
 }
 
 .table__row {
-  padding: 8px 0;
+  padding: 6px 0;
   text-align: center;
 }
 
 .table__row-light {
-  padding: 8px 0;
+  padding: 6px 0;
   text-align: center;
   color: #fff;
 }
@@ -784,18 +784,22 @@ p {
 .table__button--wrapper {
   display: flex;
   justify-content: center;
-  padding: 60px 20px;
+  align-items: center;
+  padding: 80px 20px;
+  min-height: 200px;
 }
 
 .table__button {
-  padding: 20px 40px;
+  padding: 24px 40px;
   font-size: 24px;
+  font-weight: 600;
   border: none;
-  border-radius: 8px;
+  border-radius: 12px;
   cursor: pointer;
-  min-width: 180px;
+  min-width: 220px;
   width:90%;
   height:auto;
+  
 }
 
 /* Button Gradient Modifiers */
@@ -823,7 +827,7 @@ p {
 }
 
 .table__column--business {
-  background-color: rgba(66, 153, 255 0.5);
+  background-color: #6415ff;
   color:#fff;
 }
 
@@ -1002,19 +1006,19 @@ p {
 
 .bottom-box {
   background-color: rgb(36, 62, 99);
-  margin: 0 auto;
-  width: 80%;
-  padding: 80px 40px;
+  margin: 0 auto 80px auto;
+  width: 90%;
+  padding: 80px 20px;
   display: flex;
   justify-content: center;
+  border-radius: 12px;
 }
 
 .bottom-box__container {
-  background-color: rgb(36, 62, 99);
   color: #fff;
   border-radius: 8px;
   max-width: 1000px;
-  width: 90%;
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -1023,8 +1027,11 @@ p {
 }
 .bottom-box__heading {
   font-size: 24px;
+  font-weight: 700;
+  color: #fff;
   flex: 1;
   min-width: 250px;
+  line-height: 1.3;
 }
 
 /* Buttons */
@@ -1094,6 +1101,7 @@ flex-direction: column;
 
 .footer__header {
 font-size: 18px;
+color: #fff;
 font-weight: bold;
 margin-bottom: 20px;
 text-transform: uppercase;
@@ -1129,6 +1137,7 @@ gap: 20px;
 
 .footer__brand {
 display: flex;
+text-align: center;
 align-items: center;
 gap: 12px;
 }
@@ -1140,12 +1149,18 @@ height: 32px;
 
 .footer__brand-text {
 font-size: 18px;
+color:#fff;
 font-weight: bold;
 }
 
 .footer__copyright {
 color: rgb(203, 213, 224);
 font-size: 14px;
+text-align: center;
+flex: 1;
+display: flex;
+justify-content: center;
+align-items: center;
 }
 
 .footer__social {
