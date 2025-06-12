@@ -247,7 +247,7 @@ p {
 .features__header {
   font-size: 16px;
   text-transform: uppercase;
-  color: #666;
+  color: #6415ff;
   margin-bottom: 10px;
   font-weight: 700;
 }
@@ -334,7 +334,7 @@ p {
 
 .quality-work__header {
   font-size: 16px;
-  color: #888;
+  color: #6415ff;
   text-transform: uppercase;
   margin-bottom: 10px;
   font-weight: 700;
@@ -358,7 +358,7 @@ p {
   background-color: #6415ff;
   color: #fff;
   text-decoration: none;
-  border-radius: 10px;
+  border-radius: 9999px;
   transition: background-color 0.3s ease;
 }
 
@@ -434,9 +434,9 @@ p {
   gap: 20px;
 }
 
-.steps__tagline {
+.steps__header {
   font-size: 16px;
-  color: #777;
+  color: #6415ff;
   text-align: left;
   margin-bottom: 10px;
   text-transform: uppercase;
@@ -494,7 +494,7 @@ p {
     flex-direction: column;
   }
 
-  .steps__tagline {
+  .steps__header {
     text-align: center;
   }
 
@@ -536,9 +536,9 @@ p {
   gap: 20px;
 }
 
-.values__tagline {
+.values__header {
   font-size: 16px;
-  color: #777;
+  color: #6415ff;
   text-align: left;
   text-transform: uppercase;
   font-weight: 700;
@@ -600,7 +600,7 @@ p {
   background-color: #6415ff;
   color: white;
   text-decoration: none;
-  border-radius: 10px;
+  border-radius: 9999px;
   font-size: 14px;
   transition: background-color 0.3s ease;
 }
@@ -638,7 +638,7 @@ p {
   }
 
   .values__intro,
-  .values__tagline,
+  .values__header,
   .values__title {
     text-align: left;
   }
@@ -661,9 +661,9 @@ p {
   margin-bottom: 40px;
 }
 
-.pricing__tagline {
+.pricing__header {
   font-size: 16px;
-  color: #777;
+  color: #6415ff;
   text-transform: uppercase;
   margin-bottom: 10px;
   font-weight: 700;
@@ -879,9 +879,9 @@ p {
   gap: 16px;
 }
 
-.testimonials__tagline {
+.testimonials__header {
   font-size: 16px;
-  color: #777;
+  color: #6415ff;
   text-align: left;
   text-transform: uppercase;
   font-weight: 700;
@@ -984,7 +984,7 @@ p {
     flex-direction: column;
   }
 
-  .testimonials__tagline,
+  .testimonials__header,
   .testimonials__title,
   .testimonials__intro,
   .testimonials__stars,
